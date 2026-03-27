@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: grid;
+    /* Define a estrutura: menu à esquerda, cabeçalho e principal à direita */
+    grid-template-areas: 
+        "menu cabecalho"
+        "menu principal";
+    grid-template-columns: 200px 1fr;
+    gap: 10px;
+}
